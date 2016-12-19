@@ -1,0 +1,34 @@
+Submission Instructions: 3/3
+Notes: Instructions followed
+
+Blog Appearance: 3/7
+Notes: The blog is nicely nice and clear to read, but very simple.  If you decide to maintain the blog I would encourage you to experiment with using images and other formatting tricks to improve the readability of your posts; and to consider a menu system for navigating the blog.
+
+Blog Content: 15/20
+Notes: The content of your blog posts was quite short, but what you did provide was generally very good.  Although much shorter that some other students posts you seemed to understood that the purpose of the blog was to critically reflect on your own progress, skills and aims; and you did this, making it more valuable than a lengthy post with no reflection.  You also included relevant ideas to improve based on these reflections which is exactly what I hoped for.  I was interested in reading that you found the saving part the hardest (it is expected) and encouraged that you identified planning in advance as a solution here.  I also liked the way you used a flow diagram to explain your AI (far better and easier that doing this in text).  It is great that you are thinking about careers and have identified Big Data as a field of interest.  I encourage you to do some personal research now to find out what skills you need to develop and how best to spend your time at university to secure a job here.  The quality of written English was good throughout.
+
+As a side note, I was glad to hear that you enjoyed 121COM and sorry to hear than you enjoyed the other modules less.  On the topic of Maths please be aware of the Maths Support Centre (http://www.coventry.ac.uk/study-at-coventry/student-support/academic-support/sigma-maths-and-stats-support/) which can offer additional support if ever you need it.  On the topic of poor teaching: (a) make sure you pass your concerns on via MEQs and your course rep so that the university can improve; (b) always take charge of your own learning - if one tutor is poor at answering your questions attend the Theta hours of another tutor on the course to ask questions.
+
+Game Board: 10/10
+Notes: Your have really implemented two games boards; the text-based one through stdout and the turtle drawing one.  Both are clear and update correctly.  I particularly liked the way you cleared the screen in the text based one to ensure a consistent and clean interface.  The turtle one was a good exercise, but of course, there are better GUI creation tools than turtle (you will learn of one next semester in 122COM).
+
+Win Conditions: 10/10
+Notes: In all game modes the conditions for wins and draws are correctly checked.
+
+1-Player Game: 9/10
+Notes:  The 1-player game works well with all rules of tic-tac-toe adhered to.  Good thought was given to robustness throughout; although I note that the game crashes if I just press return when entering a move.  
+
+AI: 10/10
+Notes: Good AI implemented which uses both defensive and attacking strategies without being impossible to beat.  A nice balance. 
+
+2-Player Game: 9/10
+Notes: As with the 1-player game, this works fine with only one robustness issue found.  Also, the menus to navigate the game options are clear and well thought out.
+
+Save Game: 9/10
+Notes: The save game feature is implemented for both single and multi player.  It works well, remembering game mode and whos move it is.  The user can save multiple games at once.  The only small bug can occur when a user tries to save in an already existing save game file (making a duplication in the list of games).  
+
+Documentation: 7/10
+Notes:  The in-game documentation was excellent (and the tutorial a nice added extra).  Within the code all functions had docstrings but in some cases these were not as complete as they could be.  Docstrings should always note what the parameters are and if there is output what that is.  For example, the function saveg had docstring "Function to save the game".  I would have preferred "Function to save the game.  It takes as input game (list of strings recording the current board) and mode (a string denoting whether single or multiplayer).   
+
+TOTAL = 85/100
+Final comments: As your mark indicates, this is an excellent submission.  Of course, tic-tac-toe is a fairly simple game so it was nice to see you implementing extra features like the turtle board, the tutorial and the multiple save game feature.  I encourage you to continue pushing yourself to produce code above the requirements of the brief.  In particular, I'm glad that you have reflected on the difficulties of implementing the save game feature last without planning as it is an important lesson for future projects.  With regards to your code, the quality was high, you made good use of functions and avoided the route of global variables - well done.  As a final thought, now that we have finished the module I encourage you to reflect on how OOP could have been used on this CW.
